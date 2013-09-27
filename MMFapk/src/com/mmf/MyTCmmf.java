@@ -44,7 +44,6 @@ public class MyTCmmf extends ActivityInstrumentationTestCase2 {
         solo.clickOnText("Facebook");
         solo.enterText(0,"Facebook - Robotium Test Case 01");
         solo.clickOnButton(1);
-           
 	}	
 	
 	protected void tearDown() throws Exception {
