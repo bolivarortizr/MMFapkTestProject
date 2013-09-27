@@ -13,6 +13,7 @@ public class MyTCmmf extends ActivityInstrumentationTestCase2 {
 	private static Class launcherActivityClass;
 	private Solo solo;
 	
+	@SuppressWarnings("unchecked")
 	public MyTCmmf() throws ClassNotFoundException {
 		super(launcherActivityClass=Class.forName(LAUNCHER_ACTIVITY_FULL_CLASSNAME));
 	}
