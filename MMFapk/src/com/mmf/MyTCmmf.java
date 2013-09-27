@@ -42,7 +42,6 @@ public class MyTCmmf extends ActivityInstrumentationTestCase2 {
         solo.clickOnScreen(450, 50);
         solo.waitForText("Facebook");
         solo.clickOnText("Facebook");
-        //solo.waitForDialogToOpen(10000);
         solo.enterText(0,"Facebook - Robotium Test Case 01");
         solo.clickOnButton(1);
            
