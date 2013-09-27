@@ -49,5 +49,4 @@ public class MyTCmmf extends ActivityInstrumentationTestCase2 {
 	protected void tearDown() throws Exception {
 		solo.finishOpenedActivities();
 	}
-
 }
