@@ -5,6 +5,7 @@ import com.jayway.android.robotium.solo.Solo;
 
 import android.preference.PreferenceManager;
 import android.test.ActivityInstrumentationTestCase2;
+import android.test.suitebuilder.annotation.Suppress;
 import junit.framework.TestCase;
 
 public class MyTCmmf extends ActivityInstrumentationTestCase2 {
@@ -13,7 +14,6 @@ public class MyTCmmf extends ActivityInstrumentationTestCase2 {
 	private static Class launcherActivityClass;
 	private Solo solo;
 	
-	@SuppressWarnings("unchecked")
 	public MyTCmmf() throws ClassNotFoundException {
 		super(launcherActivityClass=Class.forName(LAUNCHER_ACTIVITY_FULL_CLASSNAME));
 	}
